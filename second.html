@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                text-align: center;
+            }
+        </style>
+    </head>
+<body>
+    <h2>Typhoon Odette</h2>
+    <h3>Coconut Road in Siargao</h3>
+    <img id="image" style="width:380px;" src="before.png"><br><br>
+    <button onclick="secondImage()">After</button>
+    <button onclick="firstImage()">Before</button>
+    <br><br><p>Source: <a href="https://images.app.goo.gl/xUFcUAn83oHuvBSdA">https://images.app.goo.gl/xUFcUAn83oHuvBSdA</a></p>
+
+    <script>
+        function secondImage() {
+            image.src="after.png";
+        }
+        function firstImage() {
+            image.src="before.png";
+        }
+    </script>
+</body>
+</html>
